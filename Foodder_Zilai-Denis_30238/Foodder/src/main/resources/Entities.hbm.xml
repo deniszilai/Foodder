@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class table="Users" name="Domain.User">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="firstName" column="firstName" type="string"/>
+        <property name="lastName" column="lastName" type="string"/>
+        <property name="email" column="email" type="string"/>
+        <property name="password" column="password" type="string"/>
+    </class>
+
+    <class table="Accounts" name="Domain.Account">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="username" column="username" type="string"/>
+        <property name="password" column="password" type="string"/>
+        <property name="role" column="role" type="int"/>
+    </class>
+
+    <class table="Admins" name="Domain.Admin">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+    </class>
+
+    <class table="Orders" name="Domain.Order">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="orderNo" column="orderNo" type="integer"/>
+        <property name="price" column="price" type="float"/>
+        <property name="quantity" column="quantity" type="int"/>
+        <property name="status" column="status" type="boolean"/>
+    </class>
+
+    <class table="Products" name="Domain.Product">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+        <property name="price" column="price" type="float"/>
+        <property name="quantity" column="quantity" type="int"/>
+        <property name="restoId" column="restoId" type="integer"/>
+    </class>
+
+    <class table="Restaurants" name="Domain.Restaurant">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+        <property name="specific" column="specific" type="string"/>
+    </class>
+
+    <class table="Transporters" name="Domain.Transporter">
+        <id name="id" column="id" type="long">
+            <generator class="increment"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+    </class>
+</hibernate-mapping>

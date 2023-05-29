@@ -1,0 +1,126 @@
+ .u-section-1 {
+  background-image: url("images/202037283.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 702px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  margin: 20px auto 0 16px;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  margin: 0 auto 0 20px;
+}
+
+.u-section-1 .u-table-1 {
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+
+.u-block-86ae-11 {
+  font-weight: 700;
+  background-image: none;
+}
+
+.u-section-1 .u-table-cell-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-2 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-3 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-4 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-5 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-6 {
+  font-weight: 400;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin: 155px auto 0 211px;
+  padding: 8px 33px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin: -40px auto 0 0;
+  padding: 8px 33px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin: 8px 263px 16px auto;
+  padding: 8px 33px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 579px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -77px;
+    margin-left: 11px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 67px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-top: -34px;
+    margin-right: 63px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 443px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 332px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 209px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 464px;
+}
